@@ -1,4 +1,4 @@
-# Why I can't ron
+# Ma san, why I can't ron?
 If you want to ron/zimo with pong or chi, you must fulfill any Yaku. Here are the Yakus you can use if you already made pong or chi in the game.
 
 ## 1. Dragon Tiles
