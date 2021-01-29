@@ -11,6 +11,7 @@
 		2210DAAD25BDAA10009B8EA8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2210DAAC25BDAA10009B8EA8 /* ContentView.swift */; };
 		2210DAAF25BDAA10009B8EA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2210DAAE25BDAA10009B8EA8 /* Assets.xcassets */; };
 		2210DAB225BDAA10009B8EA8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2210DAB125BDAA10009B8EA8 /* Preview Assets.xcassets */; };
+		223DCAFB25C4231800393FA7 /* Hand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223DCAFA25C4231800393FA7 /* Hand.swift */; };
 		22C0B72C25C2E66A00CA1A27 /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C0B72B25C2E66A00CA1A27 /* Tile.swift */; };
 		22C0B72F25C2EA3300CA1A27 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C0B72E25C2EA3300CA1A27 /* Block.swift */; };
 		22C0B73225C2F44100CA1A27 /* Mark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C0B73125C2F44100CA1A27 /* Mark.swift */; };
@@ -23,6 +24,7 @@
 		2210DAAE25BDAA10009B8EA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2210DAB125BDAA10009B8EA8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2210DAB325BDAA10009B8EA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		223DCAFA25C4231800393FA7 /* Hand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hand.swift; sourceTree = "<group>"; };
 		22C0B72B25C2E66A00CA1A27 /* Tile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
 		22C0B72E25C2EA3300CA1A27 /* Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
 		22C0B73125C2F44100CA1A27 /* Mark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mark.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				22C0B72B25C2E66A00CA1A27 /* Tile.swift */,
 				22C0B72E25C2EA3300CA1A27 /* Block.swift */,
 				22C0B73125C2F44100CA1A27 /* Mark.swift */,
+				223DCAFA25C4231800393FA7 /* Hand.swift */,
 			);
 			path = Subviews;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 			files = (
 				22C0B72C25C2E66A00CA1A27 /* Tile.swift in Sources */,
 				22C0B72F25C2EA3300CA1A27 /* Block.swift in Sources */,
+				223DCAFB25C4231800393FA7 /* Hand.swift in Sources */,
 				2210DAAD25BDAA10009B8EA8 /* ContentView.swift in Sources */,
 				2210DAAB25BDAA10009B8EA8 /* MahjongApp.swift in Sources */,
 				22C0B73225C2F44100CA1A27 /* Mark.swift in Sources */,

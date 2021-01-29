@@ -14,11 +14,11 @@ struct Block: View {
     }
     
     var body: some View {
-        HStack {
+        HStack(spacing: 0) {
             ForEach(tileNames, id: \.self) { tileName in
                 Tile(name: tileName)
             }
-        }.padding()
+        }
     }
 }
 
