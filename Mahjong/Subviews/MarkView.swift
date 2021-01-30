@@ -12,7 +12,7 @@ struct MarkView: View {
     
     var body: some View {
         Text(mark)
-            .font(.subheadline)
+            .font(.caption)
             .padding(2)
             .border(Color.black, width: 1)
     }

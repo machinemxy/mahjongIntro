@@ -12,7 +12,7 @@ struct YakuView: View {
     
     var body: some View {
         VStack(alignment: .leading, spacing: 4) {
-            HStack {
+            HStack(spacing: 4) {
                 Text(yaku.title).font(.headline)
                 Spacer()
                 ForEach(yaku.marks, id: \.self) { mark in
