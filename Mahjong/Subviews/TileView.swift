@@ -7,11 +7,11 @@
 
 import SwiftUI
 
-struct Tile: View {
-    var name: String
+struct TileView: View {
+    var tile: String
     
     var body: some View {
-        Image(name)
+        Image(tile)
             .resizable()
             .scaledToFit()
     }
@@ -19,7 +19,7 @@ struct Tile: View {
 
 struct Tile_Previews: PreviewProvider {
     static var previews: some View {
-        Tile(name: "j1")
+        TileView(tile: "j1")
             .previewLayout(.fixed(width: 300, height: 300))
             .padding()
     }

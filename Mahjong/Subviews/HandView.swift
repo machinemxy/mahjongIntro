@@ -7,13 +7,13 @@
 
 import SwiftUI
 
-struct Hand: View {
-    var array: [String]
+struct HandView: View {
+    var blocks: [String]
     
     var body: some View {
         HStack(spacing: 4) {
-            ForEach(array, id: \.self) { name in
-                Block(name: name)
+            ForEach(blocks, id: \.self) { block in
+                BlockView(block: block)
             }
         }.padding(4)
     }
@@ -21,6 +21,7 @@ struct Hand: View {
 
 struct Hand_Previews: PreviewProvider {
     static var previews: some View {
-        Hand(array: ["m1,m2,m3", "m4,m5,m6", "m7,m8,m9", "j1,j1,j1", "j7,j7,nu"])
+        HandView(blocks: ["m1,m2,m3", "m4,m5,m6", "m7,m8,m9", "j1,j1,j1", "j7,j7,nu"])
+            .previewLayout(.sizeThatFits)
     }
 }

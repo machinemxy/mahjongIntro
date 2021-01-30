@@ -7,16 +7,16 @@
 
 import SwiftUI
 
-struct Block: View {
-    var name: String
+struct BlockView: View {
+    var block: String
     var tileNames: [String] {
-        name.components(separatedBy: ",")
+        block.components(separatedBy: ",")
     }
     
     var body: some View {
         HStack(spacing: 0) {
             ForEach(tileNames, id: \.self) { tileName in
-                Tile(name: tileName)
+                TileView(tile: tileName)
             }
         }
     }
@@ -24,7 +24,7 @@ struct Block: View {
 
 struct Block_Previews: PreviewProvider {
     static var previews: some View {
-        Block(name: "s1,s2,s3")
+        BlockView(block: "s1,s2,s3")
             .previewLayout(.fixed(width: 300, height: 300))
     }
 }
