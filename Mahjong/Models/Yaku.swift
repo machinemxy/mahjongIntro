@@ -8,8 +8,8 @@
 import Foundation
 
 struct Yaku {
-    var title: String
-    var marks: [String]
-    var description: String
-    var blocks: [String]?
+    let title: String
+    let marks: [String]
+    let description: String
+    let blocks: [String]?
 }

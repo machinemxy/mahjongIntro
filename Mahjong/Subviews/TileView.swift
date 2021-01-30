@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct TileView: View {
-    var tile: String
+    let tile: String
     
     var body: some View {
         Image(tile)

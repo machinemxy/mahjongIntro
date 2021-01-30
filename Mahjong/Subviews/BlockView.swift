@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct BlockView: View {
-    var block: String
+    let block: String
     var tileNames: [String] {
         block.components(separatedBy: ",")
     }

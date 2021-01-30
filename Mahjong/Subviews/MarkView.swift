@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct MarkView: View {
-    var mark: String
+    let mark: String
     
     var body: some View {
         Text(mark)

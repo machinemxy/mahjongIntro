@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct HandView: View {
-    var blocks: [String]
+    let blocks: [String]
     
     var body: some View {
         HStack(spacing: 4) {

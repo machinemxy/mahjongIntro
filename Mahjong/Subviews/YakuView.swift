@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct YakuView: View {
-    var yaku: Yaku
+    let yaku: Yaku
     
     var body: some View {
         VStack(alignment: .leading, spacing: 4) {
