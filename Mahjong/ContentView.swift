@@ -8,9 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    var yakus: [Yaku] = Bundle.main.decode("yaku_en.json")
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            List(yakus, id: \.title) { yaku in
+                YakuView(yaku: yaku)
+            }
+            .navigationBarTitle("Yakus")
+        }
     }
 }
 

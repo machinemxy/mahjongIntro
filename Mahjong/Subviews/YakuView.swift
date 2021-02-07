@@ -31,7 +31,7 @@ struct YakuView: View {
 
 struct YakuView_Previews: PreviewProvider {
     static var previews: some View {
-        let yaku = Yaku(title: "Big three dragon", marks: ["yakuman", "open same"], description: "A triplet or quad of each type of dragon tile.", blocks: ["m5,m6,m7", "j5,j5,j5", "j6,j6,j6", "j7,j7,j7", "s4,s4,nu"])
+        let yaku = Yaku(title: "Big three dragon", marks: ["Yakuman", "Open Same"], description: "A triplet or quad of each type of dragon tile.", blocks: ["m5,m6,m7", "j5,j5,j5", "j6,j6,j6", "j7,j7,j7", "s4,s4,nu"])
         return YakuView(yaku: yaku).previewLayout(.sizeThatFits)
     }
 }

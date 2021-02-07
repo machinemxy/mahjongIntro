@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Yaku {
+struct Yaku: Codable {
     let title: String
     let marks: [String]
     let description: String

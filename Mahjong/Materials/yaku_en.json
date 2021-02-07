@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Self-pick",
+    "marks": ["1 Han", "Closed Only"],
+    "description": "A player has a closed hand and draws a winning tile from the wall."
+  },
+  {
+    "title": "Riichi",
+    "marks": ["1 Han", "Closed Only"],
+    "description": "When a player's hand needs only one tile to win and the player has not claimed another players' discards, then the player has the option to declare riichi."
+  }
+]
