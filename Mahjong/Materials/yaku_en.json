@@ -1,12 +1,23 @@
 [
-  {
-    "title": "Self-pick",
-    "marks": ["1 Han", "Closed Only"],
-    "description": "A player has a closed hand and draws a winning tile from the wall."
-  },
-  {
-    "title": "Riichi",
-    "marks": ["1 Han", "Closed Only"],
-    "description": "When a player's hand needs only one tile to win and the player has not claimed another players' discards, then the player has the option to declare riichi."
-  }
+    {
+        "title": "Self-pick",
+        "marks": ["Closed 1"],
+        "description": "A player has a closed hand and draws a winning tile from the wall."
+    },
+    {
+        "title": "Riichi",
+        "marks": ["Closed 1"],
+        "description": "When a player's hand needs only one tile to win and the player has not claimed another players' discards, then the player has the option to declare riichi."
+    },
+    {
+        "title": "One-shot",
+        "marks": ["Closed 1"],
+        "description": "A player declares riichi and then completes their hand within one go-around of play."
+    },
+    {
+        "title": "All simples",
+        "marks": ["Closed 1", "Open 1"],
+        "description": "Only numbered tiles from 2 through 8 are used eliminating terminals or honors.",
+        "blocks": ["m2,m3,m4", "p2,p2,p2", "p6,p7,p8", "s6,s7,s8", "s5,s5,nu"]
+    }
 ]
