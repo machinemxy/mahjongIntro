@@ -19,5 +19,17 @@
         "marks": ["Closed 1", "Open 1"],
         "description": "Only numbered tiles from 2 through 8 are used eliminating terminals or honors.",
         "blocks": ["m2,m3,m4", "p2,p2,p2", "p6,p7,p8", "s6,s7,s8", "s5,s5,nu"]
+    },
+    {
+        "title": "No-points hand",
+        "marks": ["Closed 1"],
+        "description": "A hand with 4 sequences and 1 pair. The pair can't be dragons, own wind or wind of the round. Furthermore, the hand must be waiting for multiple winning tiles that can make a sequence.",
+        "blocks": ["m1,m2,m3", "p2,p3,p4", "p7,p8,p9", "s4,s5,s6", "m5,m5,nu"]
+    },
+    {
+        "title": "One set of identical sequences",
+        "marks": ["Closed 1"],
+        "description": "One set of two sequences of the same numbers in the same suit.",
+        "blocks": ["m2,m3,m4", "p5,p6,p7", "p5,p6,p7", "s9,s9,s9", "j6,j6,nu"]
     }
 ]
