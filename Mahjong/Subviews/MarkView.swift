@@ -14,7 +14,7 @@ struct MarkView: View {
         Text(mark)
             .font(.caption)
             .padding(2)
-            .border(Color.black, width: 1)
+            .border(Color.primary, width: 1)
     }
 }
 

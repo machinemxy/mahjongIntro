@@ -15,6 +15,26 @@
         "description": "A player declares riichi and then completes their hand within one go-around of play."
     },
     {
+        "title": "Robbing a quad",
+        "marks": ["Closed 1", "Open 1"],
+        "description": "If a player has an open triplet and draws the fourth tile, they can add it to the triplet to make a quad. At the time, another player can win on the tile, namely, they can \"rob\" that tile."
+    },
+    {
+        "title": "Dead wall draw",
+        "marks": ["Closed 1", "Open 1"],
+        "description": "When a player declares a quad, they must draw a supplemental tile from the dead wall to keep the number of tiles in the hand consistent. If that tile completes the hand, it adds one han."
+    },
+    {
+        "title": "Last tile from the wall",
+        "marks": ["Closed 1", "Open 1"],
+        "description": "When a player draws the last tile from the wall and it completes that player's hand."
+    },
+    {
+        "title": "Last discard",
+        "marks": ["Closed 1", "Open 1"],
+        "description": "When a player wins on the last discard."
+    },
+    {
         "title": "All simples",
         "marks": ["Closed 1", "Open 1"],
         "description": "Only numbered tiles from 2 through 8 are used eliminating terminals or honors.",
@@ -23,7 +43,7 @@
     {
         "title": "No-points hand",
         "marks": ["Closed 1"],
-        "description": "A hand with 4 sequences and 1 pair. The pair can't be dragons, own wind or wind of the round. Furthermore, the hand must be waiting for multiple winning tiles that can make a sequence.",
+        "description": "A hand with 4 sequences and 1 pair. The pair can't be dragons, own wind or prevailing wind. Furthermore, the hand must be waiting for multiple winning tiles that can make a sequence.",
         "blocks": ["m1,m2,m3", "p2,p3,p4", "p7,p8,p9", "s4,s5,s6", "m5,m5,nu"]
     },
     {
@@ -31,5 +51,11 @@
         "marks": ["Closed 1"],
         "description": "One set of two sequences of the same numbers in the same suit.",
         "blocks": ["m2,m3,m4", "p5,p6,p7", "p5,p6,p7", "s9,s9,s9", "j6,j6,nu"]
-    }
+    },
+    {
+        "title": "Honor tiles",
+        "marks": ["Closed 1", "Open 1"],
+        "description": "Any triplets or quads of dragons, the player's wind and the prevailing wind.",
+        "blocks": ["p1,p2,p3", "p5,p6,p7", "s8,s8,s8", "j7,j7,j7", "m5,m5,nu"]
+    },
 ]
