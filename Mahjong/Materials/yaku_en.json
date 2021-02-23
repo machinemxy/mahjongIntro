@@ -41,7 +41,7 @@
         "blocks": ["m2,m3,m4", "p2,p2,p2", "p6,p7,p8", "s6,s7,s8", "s5,s5,nu"]
     },
     {
-        "title": "No-points hand",
+        "title": "Flat hand",
         "marks": ["Closed 1"],
         "description": "A hand with 4 sequences and 1 pair. The pair can't be dragons, own wind or prevailing wind. Furthermore, the hand must be waiting for multiple winning tiles that can make a sequence.",
         "blocks": ["m1,m2,m3", "p2,p3,p4", "p7,p8,p9", "s4,s5,s6", "m5,m5,nu"]
@@ -57,5 +57,70 @@
         "marks": ["Closed 1", "Open 1"],
         "description": "Any triplets or quads of dragons, the player's wind and the prevailing wind.",
         "blocks": ["p1,p2,p3", "p5,p6,p7", "s8,s8,s8", "j7,j7,j7", "m5,m5,nu"]
+    },
+    {
+        "title": "Double-riichi",
+        "marks": ["Closed 2"],
+        "description": "When a player declare riichi in the first go-around."
+    },
+    {
+        "title": "Seven pairs",
+        "marks": ["Closed 2"],
+        "description": "A hand composed of seven pairs.",
+        "blocks": ["m3,m3", "p1,p1", "p5,p5", "s1,s1", "s8,s8", "j1,j1", "j7,j7"]
+    },
+    {
+        "title": "Three colour sequences",
+        "marks": ["Closed 2", "Open 1"],
+        "description": "Three sequences of the same numbers in all three suits.",
+        "blocks": ["m2,m3,m4", "p1,p1,p1", "p2,p3,p4", "s2,s3,s4", "j2,j2,nu"]
+    },
+    {
+        "title": "Straight",
+        "marks": ["Closed 2", "Open 1"],
+        "description": "A straight from number 1 through 9 of one suit, namely, three sequences of 1-2-3, 4-5-6 and 7-8-9.",
+        "blocks": ["m9,m9,m9", "s1,s2,s3", "s4,s5,s6", "s7,s8,s9", "j5,j5,nu"]
+    },
+    {
+        "title": "Terminal or honor in each set",
+        "marks": ["Closed 2", "Open 1"],
+        "description": "The sequences in the hand must be 1-2-3 and 7-8-9, and triplets and the pair must be 1's, 9's and honor tiles. The hand contains at least one sequence.",
+        "blocks": ["m7,m8,m9", "p1,p1,p1", "p7,p8,p9", "s9,s9,s9", "j5,j5,nu"]
+    },
+    {
+        "title": "All triplet hand",
+        "marks": ["Closed 2", "Open 2"],
+        "description": "The hand consists of all triplets or quads; no sequences.",
+        "blocks": ["m8,m8,m8", "p3,p3,p3", "s1,s1,s1", "s7,s7,s7", "j4,j4,nu"]
+    },
+    {
+        "title": "Three closed triplets",
+        "marks": ["Closed 2", "Open 2"],
+        "description": "Three sets of triplets or quads without calling. The fourth set can be an open triplet, quad or sequence",
+        "blocks": ["m4,m4,m4", "p1,p2,p3", "p9,p9,p9", "s2,s2,s2", "m1,m1,nu"]
+    },
+    {
+        "title": "Three colour triplets",
+        "marks": ["Closed 2", "Open 2"],
+        "description": "Three triplets consisting of the same numbers in all three suits.",
+        "blocks": ["m3,m3,m3", "p3,p3,p3", "p6,p7,p8", "s3,s3,s3", "j3,j3,nu"]
+    },
+    {
+        "title": "All terminals and honors",
+        "marks": ["Closed 2", "Open 2"],
+        "description": "Only terminals and honors are used.",
+        "blocks": ["m1,m1,m1", "p9,p9,p9", "s1,s1,s1", "s9,s9,s9", "j6,j6,nu"]
+    },
+    {
+        "title": "Little three dragons",
+        "marks": ["Closed 2", "Open 2"],
+        "description": "Two triplets or quads of dragons, plus a pair of the third.",
+        "blocks": ["p2,p3,p4", "s6,s7,s8", "j5,j5,j5", "j6,j6,j6", "j7,j7,nu"]
+    },
+    {
+        "title": "Three quads",
+        "marks": ["Closed 2", "Open 2"],
+        "description": "Three quads in one hand, which can be open or closed.",
+        "blocks": ["m8,m8,m8,m8", "p2,p2,p2,p2", "s3,s3,s3,s3", "s5,s6,s7,nu", "m9,m9,nu,nu"]
     },
 ]
