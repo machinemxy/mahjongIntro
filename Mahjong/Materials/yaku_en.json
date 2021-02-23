@@ -121,6 +121,6 @@
         "title": "Three quads",
         "marks": ["Closed 2", "Open 2"],
         "description": "Three quads in one hand, which can be open or closed.",
-        "blocks": ["m8,m8,m8,m8", "p2,p2,p2,p2", "s3,s3,s3,s3", "s5,s6,s7,nu", "m9,m9,nu,nu"]
+        "blocks": ["s5,s6,s7", "m9,m9,nu", "bk,m8,m8,bk", "p2,p2,p2,p2", "s3,s3,s3,s3"]
     },
 ]
