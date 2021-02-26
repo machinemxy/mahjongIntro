@@ -123,4 +123,33 @@
         "description": "Three quads in one hand, which can be open or closed.",
         "blocks": ["s5,s6,s7", "m9,m9,nu", "bk,m8,m8,bk", "p2,p2,p2,p2", "s3,s3,s3,s3"]
     },
+    {
+        "title": "Half-flush",
+        "marks": ["Closed 3", "Open 2"],
+        "description": "The hand contains tiles from one suit and honors.",
+        "blocks": ["p1,p1,p1", "p3,p4,p5", "p7,p8,p9", "j5,j5,j5", "j2,j2,nu"]
+    },
+    {
+        "title": "Terminal in each set",
+        "marks": ["Closed 3", "Open 2"],
+        "description": "The sequences must be 1-2-3 and 7-8-9, and triplets and the pair must be 1's and 9's. The hand has at least one sequence.",
+        "blocks": ["m1,m2,m3", "m9,m9,m9", "s1,s2,s3", "s7,s8,s9", "p9,p9,nu"]
+    },
+    {
+        "title": "Two sets of identical sequences",
+        "marks": ["Closed 3"],
+        "description": "Two independent sets of identical sequences.",
+        "blocks": ["p2,p3,p4", "p2,p3,p4", "m6,m7,m8", "m6,m7,m8", "j1,j1,nu"]
+    },
+    {
+        "title": "Nagashi mangan",
+        "marks": ["Closed 5", "Open 5"],
+        "description": "When a game end with tie, if a player's discards are all terminals and honors, and no one called any discard from the player's discard pile, this player can win this yaku."
+    },
+    {
+        "title": "Flush",
+        "marks": ["Closed 6", "Open 5"],
+        "description": "All tiles in the hand are exclusively of one suit with no honor tiles.",
+        "blocks": ["s1,s2,s3", "s4,s4,s4", "s6,s6,s6", "s7,s8,s9", "s5,s5,nu"]
+    },
 ]
