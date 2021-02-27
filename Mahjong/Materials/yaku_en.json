@@ -27,12 +27,12 @@
     {
         "title": "Last tile from the wall",
         "marks": ["Closed 1", "Open 1"],
-        "description": "When a player draws the last tile from the wall and it completes that player's hand."
+        "description": "A player draws the last tile from the wall and it completes that player's hand."
     },
     {
         "title": "Last discard",
         "marks": ["Closed 1", "Open 1"],
-        "description": "When a player wins on the last discard."
+        "description": "A player wins on the last discard."
     },
     {
         "title": "All simples",
@@ -61,7 +61,7 @@
     {
         "title": "Double-riichi",
         "marks": ["Closed 2"],
-        "description": "When a player declare riichi in the first go-around."
+        "description": "A player declare riichi in the first go-around."
     },
     {
         "title": "Seven pairs",
@@ -142,9 +142,9 @@
         "blocks": ["p2,p3,p4", "p2,p3,p4", "m6,m7,m8", "m6,m7,m8", "j1,j1,nu"]
     },
     {
-        "title": "Nagashi mangan",
+        "title": "Mangan at draw",
         "marks": ["Closed 5", "Open 5"],
-        "description": "When a game end with tie, if a player's discards are all terminals and honors, and no one called any discard from the player's discard pile, this player can win this yaku."
+        "description": "When a game end with draw, if a player's discards are all terminals and honors, and no one called any discard from the player's discard pile, this player can win this yaku."
     },
     {
         "title": "Flush",
@@ -152,4 +152,92 @@
         "description": "All tiles in the hand are exclusively of one suit with no honor tiles.",
         "blocks": ["s1,s2,s3", "s4,s4,s4", "s6,s6,s6", "s7,s8,s9", "s5,s5,nu"]
     },
+    {
+        "title": "Heavenly hand",
+        "marks": ["Yakuman"],
+        "description": "Dealer's start hand win directly."
+    },
+    {
+        "title": "Hand of earth",
+        "marks": ["Yakuman"],
+        "description": "A non-dealer win with his first draw when no open call has been made."
+    },
+    {
+        "title": "All green",
+        "marks": ["Yakuman", "Open OK"],
+        "description": "A hand containing only green tiles. Green tiles are: 2, 3, 4, 6, 8 of bamboo, and green dragons.",
+        "blocks": ["s2,s3,s4", "s2,s3,s4", "s6,s6,s6", "s8,s8,s8", "j6,j6,nu"]
+    },
+    {
+        "title": "Big three dragons",
+        "marks": ["Yakuman", "Open OK"],
+        "description": "A triplet or quad of each type of dragon tile.",
+        "blocks": ["m5,m6,m7", "j5,j5,j5", "j6,j6,j6", "j7,j7,j7", "s4,s4,nu"]
+    },
+    {
+        "title": "All terminals",
+        "marks": ["Yakuman", "Open OK"],
+        "description": "A hand containing only 1's and 9's (terminals).",
+        "blocks": ["m1,m1,m1", "p1,p1,p1", "p9,p9,p9", "s9,s9,s9", "s1,s1,nu"]
+    },
+    {
+        "title": "All honors",
+        "marks": ["Yakuman", "Open OK"],
+        "description": "A hand composed exclusively of wind and dragon tiles.",
+        "blocks": ["j2,j2,j2", "j3,j3,j3", "j5,j5,j5", "j6,j6,j6", "j1,j1,nu"]
+    },
+    {
+        "title": "Little four winds",
+        "marks": ["Yakuman", "Open OK"],
+        "description": "A hand consisting of three triplets/quads of winds and a pair of the fourth wind.",
+        "blocks": ["s6,s7,s8", "j1,j1,j1", "j2,j2,j2", "j3,j3,j3", "j4,j4,nu"]
+    },
+    {
+        "title": "Four quads",
+        "marks": ["Yakuman", "Open OK"],
+        "description": "Four quads in one hand, which can be open or closed.",
+        "blocks": ["s4,s4,nu", "bk,m2,m2,bk", "bk,p2,p2,bk", "s2,s2,s2,s2", "j7,j7,j7,j7"]
+    },
+    {
+        "title": "Four concealed triplets",
+        "marks": ["Yakuman"],
+        "description": "A hand that has four closed triplets/quads. If the hand has two pairs left when it is one tile away from winning, it can only qualify with a tile drawn by the player himself.",
+        "blocks": ["m4,m4,m4", "m8,m8,m8", "p9,p9,p9", "s2,s2,s2", "j1,j1,nu"]
+    },
+    {
+        "title": "Thirteen orphans",
+        "marks": ["Yakuman"],
+        "description": "The player has one of each honor tile, a 1 and a 9 (terminal) from each suit, plus any tile that matches anything else in the hand.",
+        "blocks": ["m1,m9,p1,p9,s1,s9,s9", "j1,j2,j3,j4,j5,j6,j7"]
+    },
+    {
+        "title": "Nine gates",
+        "marks": ["Yakuman"],
+        "description": "A hand composed of 1-1-1-2-3-4-5-6-7-8-9-9-9 of one suit, plus any other tile of the same suit.",
+        "blocks": ["m1,m1,m1", "m2,m3,m4", "m4,m5,m6", "m7,m8,m9", "m9,m9,nu"]
+    },
+    {
+        "title": "Big four winds",
+        "marks": ["Double yakuman", "Open OK"],
+        "description": "A hand consisting of four triplets/quads of winds.",
+        "blocks": ["j1,j1,j1", "j2,j2,j2", "j3,j3,j3", "j4,j4,j4", "p3,p3,nu"]
+    },
+    {
+        "title": "Four concealed triplets single wait",
+        "marks": ["Double yakuman"],
+        "description": "A hand that has four closed triplets/quads and get the winning tile to make the last pair.",
+        "blocks": ["m4,m4,m4", "m8,m8,m8", "p9,p9,p9", "s2,s2,s2", "j1,j1,nu"]
+    },
+    {
+        "title": "Pure nine gates",
+        "marks": ["Double yakuman"],
+        "description": "A hand of 1-1-1-2-3-4-5-6-7-8-9-9-9 of one suit, and get the winning tile of any number in same suit.",
+        "blocks": ["m1,m1,m1", "m2,m3,m4", "m4,m5,m6", "m7,m8,m9", "m9,m9,nu"]
+    },
+    {
+        "title": "Thirteen orphans 13-way wait",
+        "marks": ["Double yakuman"],
+        "description": "The player has one of each honor tile, a 1 and a 9 (terminal) from each suit, and get the winning tile of any terminal or honor tile.",
+        "blocks": ["m1,m9,p1,p9,s1,s9,s9", "j1,j2,j3,j4,j5,j6,j7"]
+    }
 ]
