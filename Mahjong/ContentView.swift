@@ -35,6 +35,12 @@ struct ContentView: View {
                 }
             }
             .navigationBarTitle("Yakus")
+            .navigationBarItems(trailing: Button("Feedback", action: {
+                guard let writeReviewURL = URL(string: "https://apps.apple.com/app/id1555907056?action=write-review") else {
+                    fatalError("Expected a valid URL")
+                }
+                UIApplication.shared.open(writeReviewURL, options: [:], completionHandler: nil)
+            }))
         }
         .navigationViewStyle(StackNavigationViewStyle())
     }

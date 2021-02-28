@@ -94,7 +94,7 @@
         "blocks": ["m8,m8,m8", "p3,p3,p3", "s1,s1,s1", "s7,s7,s7", "j4,j4,nu"]
     },
     {
-        "title": "Three closed triplets",
+        "title": "Three concealed triplets",
         "marks": ["Closed 2", "Open 2"],
         "description": "Three sets of triplets or quads without calling. The fourth set can be an open triplet, quad or sequence",
         "blocks": ["m4,m4,m4", "p1,p2,p3", "p9,p9,p9", "s2,s2,s2", "m1,m1,nu"]
