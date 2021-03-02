@@ -22,7 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2210DAA725BDAA10009B8EA8 /* Mahjong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mahjong.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2210DAA725BDAA10009B8EA8 /* Yakus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yakus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2210DAAA25BDAA10009B8EA8 /* MahjongApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MahjongApp.swift; sourceTree = "<group>"; };
 		2210DAAC25BDAA10009B8EA8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2210DAAE25BDAA10009B8EA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -31,6 +31,7 @@
 		223D76C125C587C1000CEBE8 /* Yaku.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yaku.swift; sourceTree = "<group>"; };
 		223D76C425C59B3A000CEBE8 /* YakuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YakuView.swift; sourceTree = "<group>"; };
 		223DCAFA25C4231800393FA7 /* HandView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandView.swift; sourceTree = "<group>"; };
+		229C378125EE734100E61214 /* Mahjong.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mahjong.entitlements; sourceTree = "<group>"; };
 		22BE5E7725D00A7C0040720E /* yaku_en.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = yaku_en.json; sourceTree = "<group>"; };
 		22BE5E7B25D00B9F0040720E /* CodableBundleExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
 		22C0B72B25C2E66A00CA1A27 /* TileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileView.swift; sourceTree = "<group>"; };
@@ -60,7 +61,7 @@
 		2210DAA825BDAA10009B8EA8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2210DAA725BDAA10009B8EA8 /* Mahjong.app */,
+				2210DAA725BDAA10009B8EA8 /* Yakus.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -68,6 +69,7 @@
 		2210DAA925BDAA10009B8EA8 /* Mahjong */ = {
 			isa = PBXGroup;
 			children = (
+				229C378125EE734100E61214 /* Mahjong.entitlements */,
 				22BE5E7A25D00A900040720E /* Extensions */,
 				22BE5E7625D00A600040720E /* Materials */,
 				223D76BE25C58757000CEBE8 /* Models */,
@@ -142,7 +144,7 @@
 			);
 			name = Mahjong;
 			productName = Mahjong;
-			productReference = 2210DAA725BDAA10009B8EA8 /* Mahjong.app */;
+			productReference = 2210DAA725BDAA10009B8EA8 /* Yakus.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -331,6 +333,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Mahjong/Mahjong.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Mahjong/Preview Content\"";
 				DEVELOPMENT_TEAM = EQC88F8HW8;
@@ -342,9 +345,10 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mxy.Mahjong;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Yakus;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,6";
 			};
 			name = Debug;
 		};
@@ -353,6 +357,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Mahjong/Mahjong.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Mahjong/Preview Content\"";
 				DEVELOPMENT_TEAM = EQC88F8HW8;
@@ -364,9 +369,10 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mxy.Mahjong;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Yakus;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,6";
 			};
 			name = Release;
 		};
