@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2210DAA625BDAA10009B8EA8"
-               BuildableName = "Mahjong.app"
+               BuildableName = "Yakus.app"
                BlueprintName = "Mahjong"
                ReferencedContainer = "container:Mahjong.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2210DAA625BDAA10009B8EA8"
-            BuildableName = "Mahjong.app"
+            BuildableName = "Yakus.app"
             BlueprintName = "Mahjong"
             ReferencedContainer = "container:Mahjong.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2210DAA625BDAA10009B8EA8"
-            BuildableName = "Mahjong.app"
+            BuildableName = "Yakus.app"
             BlueprintName = "Mahjong"
             ReferencedContainer = "container:Mahjong.xcodeproj">
          </BuildableReference>
