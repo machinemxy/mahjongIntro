@@ -14,6 +14,7 @@
 		223D76C225C587C1000CEBE8 /* Yaku.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223D76C125C587C1000CEBE8 /* Yaku.swift */; };
 		223D76C525C59B3A000CEBE8 /* YakuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223D76C425C59B3A000CEBE8 /* YakuView.swift */; };
 		223DCAFB25C4231800393FA7 /* HandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223DCAFA25C4231800393FA7 /* HandView.swift */; };
+		2281EDBF2600E67300C2DC51 /* KeyValuePairView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2281EDBE2600E67300C2DC51 /* KeyValuePairView.swift */; };
 		22BE5E7825D00A7C0040720E /* yaku_en.json in Resources */ = {isa = PBXBuildFile; fileRef = 22BE5E7725D00A7C0040720E /* yaku_en.json */; };
 		22BE5E7C25D00B9F0040720E /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BE5E7B25D00B9F0040720E /* CodableBundleExtension.swift */; };
 		22C0B72C25C2E66A00CA1A27 /* TileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C0B72B25C2E66A00CA1A27 /* TileView.swift */; };
@@ -33,6 +34,7 @@
 		223D76C125C587C1000CEBE8 /* Yaku.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yaku.swift; sourceTree = "<group>"; };
 		223D76C425C59B3A000CEBE8 /* YakuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YakuView.swift; sourceTree = "<group>"; };
 		223DCAFA25C4231800393FA7 /* HandView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandView.swift; sourceTree = "<group>"; };
+		2281EDBE2600E67300C2DC51 /* KeyValuePairView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyValuePairView.swift; sourceTree = "<group>"; };
 		229C378125EE734100E61214 /* Mahjong.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mahjong.entitlements; sourceTree = "<group>"; };
 		22BE5E7725D00A7C0040720E /* yaku_en.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = yaku_en.json; sourceTree = "<group>"; };
 		22BE5E7B25D00B9F0040720E /* CodableBundleExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				22C0B73125C2F44100CA1A27 /* MarkView.swift */,
 				223DCAFA25C4231800393FA7 /* HandView.swift */,
 				223D76C425C59B3A000CEBE8 /* YakuView.swift */,
+				2281EDBE2600E67300C2DC51 /* KeyValuePairView.swift */,
 			);
 			path = Subviews;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 				22EE7AAD25FA55380054554C /* FuView.swift in Sources */,
 				223D76C525C59B3A000CEBE8 /* YakuView.swift in Sources */,
 				22C0B73225C2F44100CA1A27 /* MarkView.swift in Sources */,
+				2281EDBF2600E67300C2DC51 /* KeyValuePairView.swift in Sources */,
 				22BE5E7C25D00B9F0040720E /* CodableBundleExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

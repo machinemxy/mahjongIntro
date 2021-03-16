@@ -15,7 +15,7 @@ struct HandView: View {
             ForEach(blocks, id: \.self) { block in
                 BlockView(block: block)
             }
-        }.padding(4)
+        }
     }
 }
 

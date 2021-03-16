@@ -55,7 +55,7 @@
     {
         "title": "Honor tiles",
         "marks": ["Closed 1", "Open 1"],
-        "description": "Any triplets or quads of dragons, the player's wind and the prevailing wind.",
+        "description": "Any triplets or quads of dragons, own wind and the prevailing wind.",
         "blocks": ["p1,p2,p3", "p5,p6,p7", "s8,s8,s8", "j7,j7,j7", "m5,m5,nu"]
     },
     {
