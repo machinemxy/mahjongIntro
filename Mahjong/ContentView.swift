@@ -12,14 +12,20 @@ struct ContentView: View {
         TabView {
             YakusView()
                 .tabItem {
-                    Image(systemName: "rectangle.portrait")
+                    Image(systemName: "star")
                     Text("Yakus")
                 }
             
             FuView()
                 .tabItem {
-                    Image(systemName: "diamond")
+                    Image(systemName: "rectangle.portrait")
                     Text("Fu")
+                }
+            
+            PointView()
+                .tabItem {
+                    Image(systemName: "dollarsign.circle")
+                    Text("Point")
                 }
         }
     }

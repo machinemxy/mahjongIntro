@@ -15,6 +15,7 @@
 		223D76C525C59B3A000CEBE8 /* YakuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223D76C425C59B3A000CEBE8 /* YakuView.swift */; };
 		223DCAFB25C4231800393FA7 /* HandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223DCAFA25C4231800393FA7 /* HandView.swift */; };
 		2281EDBF2600E67300C2DC51 /* KeyValuePairView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2281EDBE2600E67300C2DC51 /* KeyValuePairView.swift */; };
+		2281EDC22600FCFF00C2DC51 /* PointView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2281EDC12600FCFF00C2DC51 /* PointView.swift */; };
 		22BE5E7825D00A7C0040720E /* yaku_en.json in Resources */ = {isa = PBXBuildFile; fileRef = 22BE5E7725D00A7C0040720E /* yaku_en.json */; };
 		22BE5E7C25D00B9F0040720E /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BE5E7B25D00B9F0040720E /* CodableBundleExtension.swift */; };
 		22C0B72C25C2E66A00CA1A27 /* TileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C0B72B25C2E66A00CA1A27 /* TileView.swift */; };
@@ -35,6 +36,7 @@
 		223D76C425C59B3A000CEBE8 /* YakuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YakuView.swift; sourceTree = "<group>"; };
 		223DCAFA25C4231800393FA7 /* HandView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandView.swift; sourceTree = "<group>"; };
 		2281EDBE2600E67300C2DC51 /* KeyValuePairView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyValuePairView.swift; sourceTree = "<group>"; };
+		2281EDC12600FCFF00C2DC51 /* PointView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointView.swift; sourceTree = "<group>"; };
 		229C378125EE734100E61214 /* Mahjong.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mahjong.entitlements; sourceTree = "<group>"; };
 		22BE5E7725D00A7C0040720E /* yaku_en.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = yaku_en.json; sourceTree = "<group>"; };
 		22BE5E7B25D00B9F0040720E /* CodableBundleExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 			children = (
 				22EE7AA825FA53400054554C /* YakusView.swift */,
 				22EE7AAC25FA55380054554C /* FuView.swift */,
+				2281EDC12600FCFF00C2DC51 /* PointView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 				223D76C525C59B3A000CEBE8 /* YakuView.swift in Sources */,
 				22C0B73225C2F44100CA1A27 /* MarkView.swift in Sources */,
 				2281EDBF2600E67300C2DC51 /* KeyValuePairView.swift in Sources */,
+				2281EDC22600FCFF00C2DC51 /* PointView.swift in Sources */,
 				22BE5E7C25D00B9F0040720E /* CodableBundleExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
