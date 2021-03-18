@@ -10,8 +10,8 @@ import SwiftUI
 struct TableCornerView: View {
     var body: some View {
         VStack(alignment: .leading) {
-            Text("　Han").font(.headline)
-            Text("Fu").font(.headline)
+            Text("　Han").font(.subheadline)
+            Text("Fu").font(.subheadline)
         }
     }
 }
