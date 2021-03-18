@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct KeyValuePairView: View {
-    var key: String
-    var value: String
+    let key: String
+    let value: String
     
     var body: some View {
         HStack {

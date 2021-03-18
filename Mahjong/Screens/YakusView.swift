@@ -34,7 +34,7 @@ struct YakusView: View {
                     YakuView(yaku: yaku)
                 }
             }
-            .navigationBarTitle("Yakus")
+            .navigationBarTitle("Yakus", displayMode: .inline)
             .navigationBarItems(trailing: Button("Feedback", action: {
                 guard let writeReviewURL = URL(string: "https://apps.apple.com/app/id1555907056?action=write-review") else {
                     fatalError("Expected a valid URL")

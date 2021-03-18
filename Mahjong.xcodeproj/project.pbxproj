@@ -15,6 +15,10 @@
 		223D76C525C59B3A000CEBE8 /* YakuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223D76C425C59B3A000CEBE8 /* YakuView.swift */; };
 		223DCAFB25C4231800393FA7 /* HandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223DCAFA25C4231800393FA7 /* HandView.swift */; };
 		2261546226036A98001E8C09 /* points_non_dealer.json in Resources */ = {isa = PBXBuildFile; fileRef = 2261546126036A98001E8C09 /* points_non_dealer.json */; };
+		22615465260390B9001E8C09 /* mangan_dealer.json in Resources */ = {isa = PBXBuildFile; fileRef = 22615464260390B9001E8C09 /* mangan_dealer.json */; };
+		2261546826039176001E8C09 /* mangan_non_dealer.json in Resources */ = {isa = PBXBuildFile; fileRef = 2261546726039176001E8C09 /* mangan_non_dealer.json */; };
+		2261546B260392D3001E8C09 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2261546A260392D3001E8C09 /* HeaderView.swift */; };
+		2261546E26039485001E8C09 /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2261546D26039485001E8C09 /* ItemView.swift */; };
 		2281EDBF2600E67300C2DC51 /* KeyValuePairView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2281EDBE2600E67300C2DC51 /* KeyValuePairView.swift */; };
 		2281EDC22600FCFF00C2DC51 /* PointView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2281EDC12600FCFF00C2DC51 /* PointView.swift */; };
 		2285D8EB26023FFD00305F7B /* TableCornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2285D8EA26023FFD00305F7B /* TableCornerView.swift */; };
@@ -41,6 +45,10 @@
 		223D76C425C59B3A000CEBE8 /* YakuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YakuView.swift; sourceTree = "<group>"; };
 		223DCAFA25C4231800393FA7 /* HandView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandView.swift; sourceTree = "<group>"; };
 		2261546126036A98001E8C09 /* points_non_dealer.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = points_non_dealer.json; sourceTree = "<group>"; };
+		22615464260390B9001E8C09 /* mangan_dealer.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = mangan_dealer.json; sourceTree = "<group>"; };
+		2261546726039176001E8C09 /* mangan_non_dealer.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = mangan_non_dealer.json; sourceTree = "<group>"; };
+		2261546A260392D3001E8C09 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		2261546D26039485001E8C09 /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
 		2281EDBE2600E67300C2DC51 /* KeyValuePairView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyValuePairView.swift; sourceTree = "<group>"; };
 		2281EDC12600FCFF00C2DC51 /* PointView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointView.swift; sourceTree = "<group>"; };
 		2285D8EA26023FFD00305F7B /* TableCornerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCornerView.swift; sourceTree = "<group>"; };
@@ -126,6 +134,8 @@
 				22BE5E7725D00A7C0040720E /* yaku_en.json */,
 				2285D8F3260249EE00305F7B /* points_dealer.json */,
 				2261546126036A98001E8C09 /* points_non_dealer.json */,
+				22615464260390B9001E8C09 /* mangan_dealer.json */,
+				2261546726039176001E8C09 /* mangan_non_dealer.json */,
 			);
 			path = Materials;
 			sourceTree = "<group>";
@@ -148,6 +158,8 @@
 				223D76C425C59B3A000CEBE8 /* YakuView.swift */,
 				2281EDBE2600E67300C2DC51 /* KeyValuePairView.swift */,
 				2285D8EA26023FFD00305F7B /* TableCornerView.swift */,
+				2261546A260392D3001E8C09 /* HeaderView.swift */,
+				2261546D26039485001E8C09 /* ItemView.swift */,
 			);
 			path = Subviews;
 			sourceTree = "<group>";
@@ -219,7 +231,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22615465260390B9001E8C09 /* mangan_dealer.json in Resources */,
 				22BE5E7825D00A7C0040720E /* yaku_en.json in Resources */,
+				2261546826039176001E8C09 /* mangan_non_dealer.json in Resources */,
 				2210DAB225BDAA10009B8EA8 /* Preview Assets.xcassets in Resources */,
 				2261546226036A98001E8C09 /* points_non_dealer.json in Resources */,
 				2210DAAF25BDAA10009B8EA8 /* Assets.xcassets in Resources */,
@@ -237,9 +251,11 @@
 				22C0B72C25C2E66A00CA1A27 /* TileView.swift in Sources */,
 				22C0B72F25C2EA3300CA1A27 /* BlockView.swift in Sources */,
 				223D76C225C587C1000CEBE8 /* Yaku.swift in Sources */,
+				2261546E26039485001E8C09 /* ItemView.swift in Sources */,
 				223DCAFB25C4231800393FA7 /* HandView.swift in Sources */,
 				22EE7AA925FA53400054554C /* YakusView.swift in Sources */,
 				2210DAAD25BDAA10009B8EA8 /* ContentView.swift in Sources */,
+				2261546B260392D3001E8C09 /* HeaderView.swift in Sources */,
 				2285D8EB26023FFD00305F7B /* TableCornerView.swift in Sources */,
 				2210DAAB25BDAA10009B8EA8 /* MahjongApp.swift in Sources */,
 				2285D8EE260244BC00305F7B /* PointItem.swift in Sources */,
@@ -388,6 +404,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mxy.Mahjong;
 				PRODUCT_NAME = Yakus;
 				SUPPORTS_MACCATALYST = YES;
@@ -412,6 +429,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mxy.Mahjong;
 				PRODUCT_NAME = Yakus;
 				SUPPORTS_MACCATALYST = YES;

@@ -12,6 +12,9 @@ struct PointView: View {
     let options = ["Dealer", "Non-dealer"]
     let dealerTable: [PointLine] = Bundle.main.decode("points_dealer.json")
     let nonDealerTable: [PointLine] = Bundle.main.decode("points_non_dealer.json")
+    let dealerMangan: [PointItem] = Bundle.main.decode("mangan_dealer.json")
+    let nonDealerMangan: [PointItem] = Bundle.main.decode("mangan_non_dealer.json")
+    let manganHeader = ["5", "6 ~ 7", "8 ~ 9", "10 ~ 12", "13+", "Mangan", "Jumping Mangan", "Double Mangan", "Triple Mangan", "Yakuman"]
     @State private var selectedOption = 0
     
     var selectedTable: [PointLine] {
@@ -19,6 +22,14 @@ struct PointView: View {
             return dealerTable
         } else {
             return nonDealerTable
+        }
+    }
+    
+    var selectedMangan: [PointItem] {
+        if selectedOption == 0 {
+            return dealerMangan
+        } else {
+            return nonDealerMangan
         }
     }
     
@@ -44,20 +55,18 @@ struct PointView: View {
                         // header
                         TableCornerView()
                         ForEach(1..<5) { i in
-                            Text("\(i)").font(.subheadline)
+                            HeaderView(content: "\(i)")
                         }
                         
-                        // lines
+                        // data
                         ForEach(selectedTable) { line in
-                            Text(line.id).font(.subheadline)
+                            HeaderView(content: line.id)
                             ForEach(line.items) { item in
-                                VStack {
-                                    Text(item.ron).font(.footnote)
-                                    Text(item.sp).font(.caption2)
-                                }
+                                ItemView(ron: item.ron, sp: item.sp)
                             }
                         }
                     }
+                    .padding(.bottom)
                     
                     HStack {
                         Text("5+ han").font(.headline)
@@ -66,15 +75,26 @@ struct PointView: View {
                     .padding(.horizontal)
                     
                     LazyVGrid(columns: gridLayout, spacing: 8) {
-                        Text("5").font(.subheadline)
-                        Text("6 ~ 7").font(.subheadline)
-                        Text("8 ~ 9").font(.subheadline)
-                        Text("10 ~ 12").font(.subheadline)
-                        Text("13+").font(.subheadline)
+                        // header
+                        ForEach(manganHeader, id: \.self) { header in
+                            HeaderView(content: header)
+                        }
+                        
+                        // data
+                        ForEach(selectedMangan) { item in
+                            ItemView(ron: item.ron, sp: item.sp)
+                        }
                     }
+                    .padding(.bottom)
                 }
             }
             .navigationBarTitle("Point", displayMode: .inline)
+            .navigationBarItems(trailing: Button("Feedback", action: {
+                guard let writeReviewURL = URL(string: "https://apps.apple.com/app/id1555907056?action=write-review") else {
+                    fatalError("Expected a valid URL")
+                }
+                UIApplication.shared.open(writeReviewURL, options: [:], completionHandler: nil)
+            }))
         }
         .navigationViewStyle(StackNavigationViewStyle())
     }
