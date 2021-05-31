@@ -18,7 +18,7 @@ struct MarkView: View {
     }
 }
 
-struct Mark_Previews: PreviewProvider {
+struct MarkView_Previews: PreviewProvider {
     static var previews: some View {
         MarkView(mark: "1翻")
             .previewLayout(.sizeThatFits)

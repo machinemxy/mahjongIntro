@@ -17,7 +17,7 @@ struct TileView: View {
     }
 }
 
-struct Tile_Previews: PreviewProvider {
+struct TileView_Previews: PreviewProvider {
     static var previews: some View {
         TileView(tile: "j1")
             .previewLayout(.fixed(width: 300, height: 300))

@@ -26,6 +26,8 @@
 		2285D8EE260244BC00305F7B /* PointItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2285D8ED260244BC00305F7B /* PointItem.swift */; };
 		2285D8F12602486B00305F7B /* PointLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2285D8F02602486B00305F7B /* PointLine.swift */; };
 		2285D8F4260249EE00305F7B /* points_dealer.json in Resources */ = {isa = PBXBuildFile; fileRef = 2285D8F3260249EE00305F7B /* points_dealer.json */; };
+		22B49722266529960055E20E /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B49721266529960055E20E /* Tile.swift */; };
+		22B4972426652BB60055E20E /* InputTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4972326652BB60055E20E /* InputTileView.swift */; };
 		22BE5E7825D00A7C0040720E /* yaku_en.json in Resources */ = {isa = PBXBuildFile; fileRef = 22BE5E7725D00A7C0040720E /* yaku_en.json */; };
 		22BE5E7C25D00B9F0040720E /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BE5E7B25D00B9F0040720E /* CodableBundleExtension.swift */; };
 		22C0B72C25C2E66A00CA1A27 /* TileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C0B72B25C2E66A00CA1A27 /* TileView.swift */; };
@@ -58,6 +60,8 @@
 		2285D8F02602486B00305F7B /* PointLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointLine.swift; sourceTree = "<group>"; };
 		2285D8F3260249EE00305F7B /* points_dealer.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = points_dealer.json; sourceTree = "<group>"; };
 		229C378125EE734100E61214 /* Mahjong.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mahjong.entitlements; sourceTree = "<group>"; };
+		22B49721266529960055E20E /* Tile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
+		22B4972326652BB60055E20E /* InputTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTileView.swift; sourceTree = "<group>"; };
 		22BE5E7725D00A7C0040720E /* yaku_en.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = yaku_en.json; sourceTree = "<group>"; };
 		22BE5E7B25D00B9F0040720E /* CodableBundleExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
 		22C0B72B25C2E66A00CA1A27 /* TileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileView.swift; sourceTree = "<group>"; };
@@ -126,6 +130,7 @@
 				223D76C125C587C1000CEBE8 /* Yaku.swift */,
 				2285D8ED260244BC00305F7B /* PointItem.swift */,
 				2285D8F02602486B00305F7B /* PointLine.swift */,
+				22B49721266529960055E20E /* Tile.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -163,6 +168,7 @@
 				2261546A260392D3001E8C09 /* HeaderView.swift */,
 				2261546D26039485001E8C09 /* ItemView.swift */,
 				2233E843265A9B0D00F6F57E /* TileInputPanelView.swift */,
+				22B4972326652BB60055E20E /* InputTileView.swift */,
 			);
 			path = Subviews;
 			sourceTree = "<group>";
@@ -257,7 +263,9 @@
 				2261546E26039485001E8C09 /* ItemView.swift in Sources */,
 				223DCAFB25C4231800393FA7 /* HandView.swift in Sources */,
 				2233E844265A9B0D00F6F57E /* TileInputPanelView.swift in Sources */,
+				22B4972426652BB60055E20E /* InputTileView.swift in Sources */,
 				22EE7AA925FA53400054554C /* YakusView.swift in Sources */,
+				22B49722266529960055E20E /* Tile.swift in Sources */,
 				2210DAAD25BDAA10009B8EA8 /* ContentView.swift in Sources */,
 				2261546B260392D3001E8C09 /* HeaderView.swift in Sources */,
 				2285D8EB26023FFD00305F7B /* TableCornerView.swift in Sources */,

@@ -13,12 +13,11 @@ struct TileInputPanelView: View {
     let gridLayout = Array(repeating: GridItem(.flexible()), count: 9)
     let options = ["P", "CT", "OT", "CQ", "OQ", "CS", "OS"]
     
-    var allPatterns: [String] {
-        var array = [String]()
+    var allTiles: [Tile] {
+        var array = [Tile]()
         for i in ["m", "s", "p", "j"] {
             for j in 1...9 {
-                if i == "j" && j >= 8 { break }
-                array.append("\(i)\(j)")
+                array.append(Tile(kind: i, number: j))
             }
         }
         return array
@@ -35,8 +34,8 @@ struct TileInputPanelView: View {
             .pickerStyle(SegmentedPickerStyle())
             
             LazyVGrid(columns: gridLayout, spacing: 4, content: {
-                ForEach(allPatterns, id: \.self) {
-                    TileView(tile: $0)
+                ForEach(allTiles) {
+                    InputTileView(tile: $0)
                 }
             }).padding(4)
         }

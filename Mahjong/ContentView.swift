@@ -10,6 +10,12 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         TabView {
+            TileInputPanelView()
+                .tabItem {
+                    Image(systemName: "apps.ipad")
+                    Text("Calculator")
+                }
+            
             YakusView()
                 .tabItem {
                     Image(systemName: "star")

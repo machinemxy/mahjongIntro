@@ -22,7 +22,7 @@ struct BlockView: View {
     }
 }
 
-struct Block_Previews: PreviewProvider {
+struct BlockView_Previews: PreviewProvider {
     static var previews: some View {
         BlockView(block: "s1,s2,s3")
             .previewLayout(.fixed(width: 300, height: 300))

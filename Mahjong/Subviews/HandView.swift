@@ -19,7 +19,7 @@ struct HandView: View {
     }
 }
 
-struct Hand_Previews: PreviewProvider {
+struct HandView_Previews: PreviewProvider {
     static var previews: some View {
         HandView(blocks: ["m1,m2,m3", "m4,m5,m6", "m7,m8,m9", "j1,j1,j1", "j7,j7,nu"])
             .previewLayout(.sizeThatFits)
